@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c3ebbee-97c3-441d-978b-6bda22070987" name="Changes" comment="-commit de base pour : backend spring boot - microservice - h2 disk embedded version">
-      <change afterPath="$PROJECT_DIR$/system.properties" afterDir="false" />
+    <list default="true" id="9c3ebbee-97c3-441d-978b-6bda22070987" name="Changes" comment="-ajout du system.properties pour définir java.runtime.version=11 et maven.version=3.8.4&#10;-modification du pom.xml pour spécifier correctement la version de Java et la config du maven-compiler-plugin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datas/h2/smallwave.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/datas/h2/smallwave.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701915992627</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="-ajout du system.properties pour définir java.runtime.version=11 et maven.version=3.8.4&#10;-modification du pom.xml pour spécifier correctement la version de Java et la config du maven-compiler-plugin">
+      <created>1701944931149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701944931149</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,7 +96,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -100,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="-commit de base pour : backend spring boot - microservice - h2 disk embedded version" />
-    <option name="LAST_COMMIT_MESSAGE" value="-commit de base pour : backend spring boot - microservice - h2 disk embedded version" />
+    <MESSAGE value="-ajout du system.properties pour définir java.runtime.version=11 et maven.version=3.8.4&#10;-modification du pom.xml pour spécifier correctement la version de Java et la config du maven-compiler-plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="-ajout du system.properties pour définir java.runtime.version=11 et maven.version=3.8.4&#10;-modification du pom.xml pour spécifier correctement la version de Java et la config du maven-compiler-plugin" />
   </component>
 </project>
