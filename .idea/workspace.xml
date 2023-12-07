@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c3ebbee-97c3-441d-978b-6bda22070987" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/h2/smallwave.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/Initializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/SmallwaveBackendApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/controller/CommandeRestContoller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/controller/ProduitRestContoller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/controller/TypecommandeRestContoller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/controller/UtilisateurRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/controller/hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/dao/repository/ActualiteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/dao/repository/CandidatRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/dao/repository/CategorieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/dao/repository/ChatteurRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/dao/repository/CommandeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/dao/repository/ImageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/dao/repository/MessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/dao/repository/ProduitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/dao/repository/TypecommandeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/dao/repository/UtilisateurRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/entities/AbstractEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/entities/Actualite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/entities/Candidat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/entities/Categorie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/entities/Chatteur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/entities/Commande.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/entities/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/entities/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/entities/Produit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/entities/ProduitProjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/entities/Typecommande.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/entities/Utilisateur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/hibernateUtils/EncryptionTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/ActualiteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/ActualiteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/CandidatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/CandidatServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/CategorieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/CategorieServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/ChatteurSerciceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/ChatteurService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/CommandeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/CommandeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/ImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/ImageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/ProduitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/ProduitServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/TypecommandeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/TypecommandeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/UtilisateurService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/services/UtilisateurServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/tools/ModuleTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/tools/Validateur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ZByXVgkuwzF9ICdsDPJogeNaKl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "11 (2)",
+    "last_directory_selection": "C:/Users/rafar/IdeaProjects/backend-smallwave/src/main/java",
+    "last_opened_file_path": "C:/Users/rafar/IdeaProjects/backend-smallwave/src/main/resources"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rafar\IdeaProjects\backend-smallwave\src\main\resources" />
+      <recent name="C:\Users\rafar\IdeaProjects\backend-smallwave\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SmallwaveBackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rafaros.backend.SmallwaveBackendApplication" />
+      <module name="backend-smallwave" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rafaros.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SmallwaveBackendApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c3ebbee-97c3-441d-978b-6bda22070987" name="Changes" comment="" />
+      <created>1701909809263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701909809263</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
