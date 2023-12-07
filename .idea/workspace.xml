@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c3ebbee-97c3-441d-978b-6bda22070987" name="Changes" comment="-ajout du system.properties pour définir java.runtime.version=11 et maven.version=3.8.4&#10;-modification du pom.xml pour spécifier correctement la version de Java et la config du maven-compiler-plugin">
+    <list default="true" id="9c3ebbee-97c3-441d-978b-6bda22070987" name="Changes" comment="-modification du pom.xml pour spécifier correctement la classe Main Java de lancement de l'application, cela au niveau du spring-boot-maven-plugin :&#10;  &lt;mainClass&gt;rafaros.backend.SmallwaveBackendApplication&lt;/mainClass&gt;">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701944931149</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="-modification du pom.xml pour spécifier correctement la classe Main Java de lancement de l'application, cela au niveau du spring-boot-maven-plugin :&#10;  &lt;mainClass&gt;rafaros.backend.SmallwaveBackendApplication&lt;/mainClass&gt;">
+      <created>1701945872258</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701945872258</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +125,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="-commit de base pour : backend spring boot - microservice - h2 disk embedded version" />
     <MESSAGE value="-ajout du system.properties pour définir java.runtime.version=11 et maven.version=3.8.4&#10;-modification du pom.xml pour spécifier correctement la version de Java et la config du maven-compiler-plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="-ajout du system.properties pour définir java.runtime.version=11 et maven.version=3.8.4&#10;-modification du pom.xml pour spécifier correctement la version de Java et la config du maven-compiler-plugin" />
+    <MESSAGE value="-modification du pom.xml pour spécifier correctement la classe Main Java de lancement de l'application, cela au niveau du spring-boot-maven-plugin :&#10;  &lt;mainClass&gt;rafaros.backend.SmallwaveBackendApplication&lt;/mainClass&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="-modification du pom.xml pour spécifier correctement la classe Main Java de lancement de l'application, cela au niveau du spring-boot-maven-plugin :&#10;  &lt;mainClass&gt;rafaros.backend.SmallwaveBackendApplication&lt;/mainClass&gt;" />
   </component>
 </project>
