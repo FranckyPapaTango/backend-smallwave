@@ -9,6 +9,6 @@ public class hello {
 
 	@RequestMapping("/")
 	public String getHelloWorld() {
-		return "Hello crétinssss !!! ";
+		return "Bienvenu dans l'Endpoint du RestController ! ";
 	}
 }

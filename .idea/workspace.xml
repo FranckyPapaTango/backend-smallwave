@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c3ebbee-97c3-441d-978b-6bda22070987" name="Changes" comment="-modification du pom.xml pour spécifier correctement la classe Main Java de lancement de l'application, cela au niveau du spring-boot-maven-plugin :&#10;  &lt;mainClass&gt;rafaros.backend.SmallwaveBackendApplication&lt;/mainClass&gt;">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/h2/smallwave.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/datas/h2/smallwave.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rafaros/backend/Initializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rafaros/backend/controller/hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/controller/hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +42,11 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "jdk.selected.JAVA_MODULE": "11 (2)",
     "last_directory_selection": "C:/Users/rafar/IdeaProjects/backend-smallwave/src/main/java",
-    "last_opened_file_path": "C:/Users/rafar/IdeaProjects/backend-smallwave/src/main/resources"
+    "last_opened_file_path": "C:/Users/rafar/IdeaProjects/backend-smallwave/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -109,7 +119,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -127,5 +137,9 @@
     <MESSAGE value="-ajout du system.properties pour définir java.runtime.version=11 et maven.version=3.8.4&#10;-modification du pom.xml pour spécifier correctement la version de Java et la config du maven-compiler-plugin" />
     <MESSAGE value="-modification du pom.xml pour spécifier correctement la classe Main Java de lancement de l'application, cela au niveau du spring-boot-maven-plugin :&#10;  &lt;mainClass&gt;rafaros.backend.SmallwaveBackendApplication&lt;/mainClass&gt;" />
     <option name="LAST_COMMIT_MESSAGE" value="-modification du pom.xml pour spécifier correctement la classe Main Java de lancement de l'application, cela au niveau du spring-boot-maven-plugin :&#10;  &lt;mainClass&gt;rafaros.backend.SmallwaveBackendApplication&lt;/mainClass&gt;" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
