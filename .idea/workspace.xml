@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c3ebbee-97c3-441d-978b-6bda22070987" name="Changes" comment="-modification du pom.xml pour spécifier correctement la classe Main Java de lancement de l'application, cela au niveau du spring-boot-maven-plugin :&#10;  &lt;mainClass&gt;rafaros.backend.SmallwaveBackendApplication&lt;/mainClass&gt;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="9c3ebbee-97c3-441d-978b-6bda22070987" name="Changes" comment="_modification du packaging en war (pom.xml - ligne 10)&#10;&#10;-modification du pom.xml pour ajouter la dépendance postgresql et spécifier la version&#10;du spring-boot-maven-plugin (ligne 108)&#10;&#10;-modification de application.properties pour basculer sur une configuration pour base de données postgresql &#10;&#10;-ajout du web.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datas/h2/smallwave.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/datas/h2/smallwave.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rafaros/backend/Initializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rafaros/backend/controller/hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/controller/hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rafaros/backend/SmallwaveBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/SmallwaveBackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rafaros/backend/controller/ProduitRestContoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rafaros/backend/controller/ProduitRestContoller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,22 +29,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "jdk.selected.JAVA_MODULE": "11 (2)",
-    "last_directory_selection": "C:/Users/rafar/IdeaProjects/backend-smallwave/src/main/java",
-    "last_opened_file_path": "C:/Users/rafar/IdeaProjects/backend-smallwave/src/main/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11 (2)&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/rafar/IdeaProjects/backend-smallwave/src/main/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rafar/IdeaProjects/backend-smallwave/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rafar\IdeaProjects\backend-smallwave\src\main\resources" />
@@ -105,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701945872258</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="_modification du packaging en war (pom.xml - ligne 10)&#10;&#10;-modification du pom.xml pour ajouter la dépendance postgresql et spécifier la version&#10;du spring-boot-maven-plugin (ligne 108)&#10;&#10;-modification de application.properties pour basculer sur une configuration pour base de données postgresql &#10;&#10;-ajout du web.xml">
+      <created>1705345861252</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705345861252</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,7 +139,8 @@
     <MESSAGE value="-commit de base pour : backend spring boot - microservice - h2 disk embedded version" />
     <MESSAGE value="-ajout du system.properties pour définir java.runtime.version=11 et maven.version=3.8.4&#10;-modification du pom.xml pour spécifier correctement la version de Java et la config du maven-compiler-plugin" />
     <MESSAGE value="-modification du pom.xml pour spécifier correctement la classe Main Java de lancement de l'application, cela au niveau du spring-boot-maven-plugin :&#10;  &lt;mainClass&gt;rafaros.backend.SmallwaveBackendApplication&lt;/mainClass&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="-modification du pom.xml pour spécifier correctement la classe Main Java de lancement de l'application, cela au niveau du spring-boot-maven-plugin :&#10;  &lt;mainClass&gt;rafaros.backend.SmallwaveBackendApplication&lt;/mainClass&gt;" />
+    <MESSAGE value="_modification du packaging en war (pom.xml - ligne 10)&#10;&#10;-modification du pom.xml pour ajouter la dépendance postgresql et spécifier la version&#10;du spring-boot-maven-plugin (ligne 108)&#10;&#10;-modification de application.properties pour basculer sur une configuration pour base de données postgresql &#10;&#10;-ajout du web.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="_modification du packaging en war (pom.xml - ligne 10)&#10;&#10;-modification du pom.xml pour ajouter la dépendance postgresql et spécifier la version&#10;du spring-boot-maven-plugin (ligne 108)&#10;&#10;-modification de application.properties pour basculer sur une configuration pour base de données postgresql &#10;&#10;-ajout du web.xml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

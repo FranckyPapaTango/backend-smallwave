@@ -3,10 +3,7 @@ package rafaros.backend.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import rafaros.backend.entities.Produit;
 import rafaros.backend.services.ProduitService;
 
@@ -39,6 +36,17 @@ public class ProduitRestContoller {
 	@GetMapping("/getallproduit")
 	public ResponseEntity<List<Produit>> listeAllproduit() {
 		return new ResponseEntity<>(produitService.findAll(), HttpStatus.OK);
+	}
+
+	@GetMapping("/product/{idProduit}")
+	public ResponseEntity<Produit> getProductById(@PathVariable Long idProduit) {
+		Produit produit = produitService.findById(idProduit);
+
+		if (produit != null) {
+			return new ResponseEntity<>(produit, HttpStatus.OK);
+		} else {
+			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+		}
 	}
 
 }
